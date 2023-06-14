@@ -1,0 +1,27 @@
+--SELECT
+--LineID
+--,CAST(CONVERT(VARCHAR(10), DocumentDate, 112) AS INT) AS 'DateID'
+--,DocumentID
+--,ProductID
+--,Quantity
+--,DocumentSellPrice
+--,DocumentPurchasePrice
+--,VendorID
+--,WarehouseID
+--,ShopID
+--,DocumentType
+--FROM Prestaging.FactsCommercialInvoices
+
+--SELECT
+--LineID
+--,CAST(CONVERT(VARCHAR(10), DocumentDate, 112) AS INT) AS 'DateID'
+--,DocumentID
+--,ProductID
+--,Quantity
+--,DocumentSellPrice
+--,DocumentPurchasePrice
+--,VendorID
+--,WarehouseID
+--,ShopID
+--,DocumentType
+--FROM Prestaging.FactsFreightInvoices

@@ -1,0 +1,126 @@
+--FactTable Select conditions
+--SELECT
+--DocumentLines.ID
+--,DocumentHeaders.ID AS 'DocumentID'
+--,DocumentHeaders.DocumentDate
+--,ProductID
+--,Quantity
+--,Products.PurchasePrice AS 'DocumentPurchasePrice'
+--,Products.SellPrice AS 'DocumentSellPrice'
+--,DocumentHeaders.OriginalPlaceID
+--,DocumentHeaders.DestinationPlaceID
+--,DocumentHeaders.DocumentType
+--FROM DocumentLines
+--INNER JOIN DocumentHeaders 
+--ON DocumentHeaders.ID = DocumentLines.DocumentHeaderID
+--INNER JOIN Products
+--ON Products.ID = DocumentLines.ProductID
+--WHERE DocumentHeaders.DocumentType = 'CommercialInvoice' OR DocumentHeaders.DocumentType = 'FreightInvoice'
+
+----Vendors, Shops and Warehouses Select conditions
+--SELECT
+--ID
+--,Name
+--,Country
+--,City
+--,Street
+----,TelephoneTo
+--,NIP
+--,PlaceType
+--,PostCode
+--FROM AssociatedPlaces
+
+----Vendors Select conditions
+--SELECT
+--ID
+--,Name
+--,Country
+--,City
+--,Street
+--,TelephoneTo
+--,NIP
+--,PlaceType
+--,PostCode
+--FROM AssociatedPlaces
+--WHERE PlaceType = 'Vendor'
+
+----Warehouses Select conditions
+--SELECT
+--ID
+--,Name
+--,Country
+--,City
+--,Street
+--,TelephoneTo
+----,NIP
+--,PlaceType
+--,PostCode
+--FROM AssociatedPlaces
+--WHERE PlaceType = 'Warehouse'
+
+----Shops Select conditions
+--SELECT
+--ID
+--,Name
+--,Country
+--,City
+--,Street
+--,TelephoneTo
+----,NIP
+--,PlaceType
+--,PostCode
+--FROM AssociatedPlaces
+--WHERE PlaceType = 'Shop'
+
+--SELECT
+--Products.ID
+--,Manufacturers.Name AS 'ManufacturerName'
+--,ProductName
+--,Categories.Name AS 'CategoryName'
+--,Subcategories.Name AS 'SubcategoryName'
+--,PurchasePrice AS 'CurrentPurchasePrice'
+--,SellPrice AS 'CurrentSellPrice' 
+----,DefaultWarrantyDuration
+----,ProductDiscountID int
+--FROM Products
+--INNER JOIN Manufacturers ON Manufacturers.ID = Products.ManufacturerID
+--INNER JOIN Subcategories ON Subcategories.ID = Products.SubcategoryID
+--INNER JOIN Categories ON Subcategories.CategoryID = Categories.ID
+
+--SELECT
+--DocumentLines.ID AS 'LineID'
+--,DocumentHeaders.ID AS 'DocumentID'
+--,DocumentHeaders.DocumentDate
+--,ProductID
+--,Quantity
+--,Products.PurchasePrice AS 'DocumentPurchasePrice'
+--,Products.SellPrice AS 'DocumentSellPrice'
+--,NULL AS 'VendorID'
+--,DocumentHeaders.OriginalPlaceID AS 'WarehouseID'
+--,DocumentHeaders.DestinationPlaceID AS 'ShopID'
+--,DocumentHeaders.DocumentType
+--FROM DocumentLines
+--INNER JOIN DocumentHeaders 
+--ON DocumentHeaders.ID = DocumentLines.DocumentHeaderID
+--INNER JOIN Products
+--ON Products.ID = DocumentLines.ProductID
+--WHERE DocumentHeaders.DocumentType = 'FreightInvoice'
+
+--SELECT
+--DocumentLines.ID AS 'LineID'
+--,DocumentHeaders.ID AS 'DocumentID'
+--,DocumentHeaders.DocumentDate
+--,ProductID
+--,Quantity
+--,Products.PurchasePrice AS 'DocumentPurchasePrice'
+--,Products.SellPrice AS 'DocumentSellPrice'
+--,DocumentHeaders.OriginalPlaceID AS 'VendorID'
+--,DocumentHeaders.DestinationPlaceID AS 'WarehouseID'
+--,NULL AS 'ShopID'
+--,DocumentHeaders.DocumentType
+--FROM DocumentLines
+--INNER JOIN DocumentHeaders 
+--ON DocumentHeaders.ID = DocumentLines.DocumentHeaderID
+--INNER JOIN Products
+--ON Products.ID = DocumentLines.ProductID
+--WHERE DocumentHeaders.DocumentType = 'CommercialInvoice'

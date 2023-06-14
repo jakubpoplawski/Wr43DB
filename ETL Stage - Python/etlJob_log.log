@@ -1,0 +1,188 @@
+INFO:  2023-06-12 01:23:42,773:  17136:  <module>:  ETL job initialised.
+INFO:  2023-06-12 01:23:50,922:  17136:  clean_staging_tables:  Staging tables cleaning started.
+INFO:  2023-06-12 01:23:50,925:  17136:  clean_staging_tables:  Staging tables cleaned successfully.
+INFO:  2023-06-12 01:23:50,925:  17136:  clean_staging_tables:  Staging tables cleaning has ended.
+INFO:  2023-06-12 01:23:50,925:  17136:  main:  Cleaning staging tables CPU usage 0.7%.
+INFO:  2023-06-12 01:23:50,925:  17136:  main:  Cleaning staging tables took: 0.0024569034576416016 seconds.
+INFO:  2023-06-12 01:23:50,925:  17136:  extract:  Start Products extract session.
+INFO:  2023-06-12 01:23:51,030:  17136:  extract:  Extraction session of Products completed successfully.
+INFO:  2023-06-12 01:23:51,030:  17136:  main:  Extraction of Products CPU usage 6.6%.
+INFO:  2023-06-12 01:23:51,030:  17136:  main:  Extraction took: 0.10591340065002441 seconds.
+INFO:  2023-06-12 01:23:51,030:  17136:  staging_load:  Start Products staging load session.
+INFO:  2023-06-12 01:23:51,618:  17136:  staging_load:  Staging load session of Products completed successfully.
+INFO:  2023-06-12 01:23:51,618:  17136:  staging_load:  Staging load session of Products has ended.
+INFO:  2023-06-12 01:23:51,618:  17136:  main:  Staging load of Products CPU usage 0.7%.
+INFO:  2023-06-12 01:23:51,618:  17136:  main:  Staging load took: 0.5877764225006104 seconds.
+INFO:  2023-06-12 01:23:51,618:  17136:  extract:  Start Shops extract session.
+INFO:  2023-06-12 01:23:51,630:  17136:  extract:  Extraction session of Shops completed successfully.
+INFO:  2023-06-12 01:23:51,630:  17136:  main:  Extraction of Shops CPU usage 0.0%.
+INFO:  2023-06-12 01:23:51,630:  17136:  main:  Extraction took: 0.01221466064453125 seconds.
+INFO:  2023-06-12 01:23:51,630:  17136:  staging_load:  Start Shops staging load session.
+INFO:  2023-06-12 01:23:51,652:  17136:  staging_load:  Staging load session of Shops completed successfully.
+INFO:  2023-06-12 01:23:51,652:  17136:  staging_load:  Staging load session of Shops has ended.
+INFO:  2023-06-12 01:23:51,652:  17136:  main:  Staging load of Shops CPU usage 0.0%.
+INFO:  2023-06-12 01:23:51,652:  17136:  main:  Staging load took: 0.0217740535736084 seconds.
+INFO:  2023-06-12 01:23:51,652:  17136:  extract:  Start Warehouses extract session.
+INFO:  2023-06-12 01:23:51,664:  17136:  extract:  Extraction session of Warehouses completed successfully.
+INFO:  2023-06-12 01:23:51,664:  17136:  main:  Extraction of Warehouses CPU usage 11.1%.
+INFO:  2023-06-12 01:23:51,664:  17136:  main:  Extraction took: 0.011843442916870117 seconds.
+INFO:  2023-06-12 01:23:51,665:  17136:  staging_load:  Start Warehouses staging load session.
+INFO:  2023-06-12 01:23:51,685:  17136:  staging_load:  Staging load session of Warehouses completed successfully.
+INFO:  2023-06-12 01:23:51,685:  17136:  staging_load:  Staging load session of Warehouses has ended.
+INFO:  2023-06-12 01:23:51,685:  17136:  main:  Staging load of Warehouses CPU usage 5.6%.
+INFO:  2023-06-12 01:23:51,685:  17136:  main:  Staging load took: 0.019772052764892578 seconds.
+INFO:  2023-06-12 01:23:51,685:  17136:  extract:  Start Vendors extract session.
+INFO:  2023-06-12 01:23:51,697:  17136:  extract:  Extraction session of Vendors completed successfully.
+INFO:  2023-06-12 01:23:51,698:  17136:  main:  Extraction of Vendors CPU usage 25.0%.
+INFO:  2023-06-12 01:23:51,698:  17136:  main:  Extraction took: 0.012879610061645508 seconds.
+INFO:  2023-06-12 01:23:51,698:  17136:  staging_load:  Start Vendors staging load session.
+INFO:  2023-06-12 01:23:51,721:  17136:  staging_load:  Staging load session of Vendors completed successfully.
+INFO:  2023-06-12 01:23:51,721:  17136:  staging_load:  Staging load session of Vendors has ended.
+INFO:  2023-06-12 01:23:51,721:  17136:  main:  Staging load of Vendors CPU usage 0.0%.
+INFO:  2023-06-12 01:23:51,721:  17136:  main:  Staging load took: 0.02372455596923828 seconds.
+INFO:  2023-06-12 01:23:51,721:  17136:  extract:  Start Commercial Invoices extract session.
+INFO:  2023-06-12 01:23:53,668:  17136:  extract:  Extraction session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:23:53,668:  17136:  main:  Extraction of Commercial Invoices CPU usage 7.5%.
+INFO:  2023-06-12 01:23:53,669:  17136:  main:  Extraction took: 1.9469106197357178 seconds.
+INFO:  2023-06-12 01:23:53,669:  17136:  staging_load:  Start Commercial Invoices staging load session.
+INFO:  2023-06-12 01:24:07,935:  17136:  staging_load:  Staging load session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:24:07,935:  17136:  staging_load:  Staging load session of Commercial Invoices has ended.
+INFO:  2023-06-12 01:24:07,935:  17136:  main:  Staging load of Commercial Invoices CPU usage 1.9%.
+INFO:  2023-06-12 01:24:07,935:  17136:  main:  Staging load took: 14.26548433303833 seconds.
+INFO:  2023-06-12 01:24:07,935:  17136:  extract:  Start Freight Invoices extract session.
+INFO:  2023-06-12 01:24:09,610:  17136:  extract:  Extraction session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:24:09,612:  17136:  main:  Extraction of Freight Invoices CPU usage 7.5%.
+INFO:  2023-06-12 01:24:09,612:  17136:  main:  Extraction took: 1.676588535308838 seconds.
+INFO:  2023-06-12 01:24:09,612:  17136:  staging_load:  Start Freight Invoices staging load session.
+INFO:  2023-06-12 01:24:21,781:  17136:  staging_load:  Staging load session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:24:21,781:  17136:  staging_load:  Staging load session of Freight Invoices has ended.
+INFO:  2023-06-12 01:24:21,781:  17136:  main:  Staging load of Freight Invoices CPU usage 1.6%.
+INFO:  2023-06-12 01:24:21,781:  17136:  main:  Staging load took: 12.168652772903442 seconds.
+INFO:  2023-06-12 01:24:25,837:  17136:  warehouse_load:  Start Products warehouse load session.
+INFO:  2023-06-12 01:24:26,820:  17136:  warehouse_load:  Warehouse load session of Products completed successfully.
+INFO:  2023-06-12 01:24:26,820:  17136:  warehouse_load:  Warehouse load session of Products has ended.
+INFO:  2023-06-12 01:24:26,820:  17136:  main:  Warehouse load of Products CPU usage 0.4%.
+INFO:  2023-06-12 01:24:26,820:  17136:  main:  Warehouse load took: 0.9831819534301758 seconds.
+INFO:  2023-06-12 01:24:26,820:  17136:  warehouse_load:  Start Shops warehouse load session.
+INFO:  2023-06-12 01:24:26,845:  17136:  warehouse_load:  Warehouse load session of Shops completed successfully.
+INFO:  2023-06-12 01:24:26,845:  17136:  warehouse_load:  Warehouse load session of Shops has ended.
+INFO:  2023-06-12 01:24:26,845:  17136:  main:  Warehouse load of Shops CPU usage 0.0%.
+INFO:  2023-06-12 01:24:26,846:  17136:  main:  Warehouse load took: 0.02431511878967285 seconds.
+INFO:  2023-06-12 01:24:26,846:  17136:  warehouse_load:  Start Warehouses warehouse load session.
+INFO:  2023-06-12 01:24:26,864:  17136:  warehouse_load:  Warehouse load session of Warehouses completed successfully.
+INFO:  2023-06-12 01:24:26,865:  17136:  warehouse_load:  Warehouse load session of Warehouses has ended.
+INFO:  2023-06-12 01:24:26,865:  17136:  main:  Warehouse load of Warehouses CPU usage 6.7%.
+INFO:  2023-06-12 01:24:26,865:  17136:  main:  Warehouse load took: 0.01929616928100586 seconds.
+INFO:  2023-06-12 01:24:26,865:  17136:  warehouse_load:  Start Vendors warehouse load session.
+INFO:  2023-06-12 01:24:26,890:  17136:  warehouse_load:  Warehouse load session of Vendors completed successfully.
+INFO:  2023-06-12 01:24:26,890:  17136:  warehouse_load:  Warehouse load session of Vendors has ended.
+INFO:  2023-06-12 01:24:26,891:  17136:  main:  Warehouse load of Vendors CPU usage 0.0%.
+INFO:  2023-06-12 01:24:26,891:  17136:  main:  Warehouse load took: 0.024782419204711914 seconds.
+INFO:  2023-06-12 01:24:26,891:  17136:  warehouse_load:  Start Commercial Invoices warehouse load session.
+INFO:  2023-06-12 01:24:35,986:  17136:  warehouse_load:  Warehouse load session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:24:35,987:  17136:  warehouse_load:  Warehouse load session of Commercial Invoices has ended.
+INFO:  2023-06-12 01:24:35,988:  17136:  main:  Warehouse load of Commercial Invoices CPU usage 1.6%.
+INFO:  2023-06-12 01:24:35,988:  17136:  main:  Warehouse load took: 9.097653865814209 seconds.
+INFO:  2023-06-12 01:24:35,988:  17136:  warehouse_load:  Start Freight Invoices warehouse load session.
+INFO:  2023-06-12 01:24:43,579:  17136:  warehouse_load:  Warehouse load session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:24:43,579:  17136:  warehouse_load:  Warehouse load session of Freight Invoices has ended.
+INFO:  2023-06-12 01:24:43,580:  17136:  main:  Warehouse load of Freight Invoices CPU usage 1.6%.
+INFO:  2023-06-12 01:24:43,580:  17136:  main:  Warehouse load took: 7.591762542724609 seconds.
+INFO:  2023-06-12 01:24:43,582:  17136:  main:  ETL Job took: 60.80912256240845 seconds.
+INFO:  2023-06-12 01:24:43,582:  17136:  main:  Session Summary:
+INFO:  2023-06-12 01:24:43,583:  17136:  main:  RAM memory 42.3% used.
+INFO:  2023-06-12 01:24:43,583:  17136:  main:  CPU usage 0.0%.
+INFO:  2023-06-12 01:29:10,223:  14532:  <module>:  ETL job initialised.
+INFO:  2023-06-12 01:29:18,371:  14532:  clean_staging_tables:  Staging tables cleaning started.
+INFO:  2023-06-12 01:29:18,373:  14532:  clean_staging_tables:  Staging tables cleaned successfully.
+INFO:  2023-06-12 01:29:18,373:  14532:  clean_staging_tables:  Staging tables cleaning has ended.
+INFO:  2023-06-12 01:29:18,374:  14532:  main:  Cleaning staging tables CPU usage 0.7%.
+INFO:  2023-06-12 01:29:18,374:  14532:  main:  Cleaning staging tables took: 0.0029952526092529297 seconds.
+INFO:  2023-06-12 01:29:18,374:  14532:  extract:  Start Products extract session.
+INFO:  2023-06-12 01:29:18,590:  14532:  extract:  Extraction session of Products completed successfully.
+INFO:  2023-06-12 01:29:18,590:  14532:  main:  Extraction of Products CPU usage 7.3%.
+INFO:  2023-06-12 01:29:18,590:  14532:  main:  Extraction took: 0.21608543395996094 seconds.
+INFO:  2023-06-12 01:29:18,590:  14532:  staging_load:  Start Products staging load session.
+INFO:  2023-06-12 01:29:18,608:  14532:  staging_load:  Staging load session of Products completed successfully.
+INFO:  2023-06-12 01:29:18,609:  14532:  staging_load:  Staging load session of Products has ended.
+INFO:  2023-06-12 01:29:18,609:  14532:  main:  Staging load of Products CPU usage 12.5%.
+INFO:  2023-06-12 01:29:18,609:  14532:  main:  Staging load took: 0.018980026245117188 seconds.
+INFO:  2023-06-12 01:29:18,609:  14532:  extract:  Start Shops extract session.
+INFO:  2023-06-12 01:29:18,622:  14532:  extract:  Extraction session of Shops completed successfully.
+INFO:  2023-06-12 01:29:18,622:  14532:  main:  Extraction of Shops CPU usage 12.5%.
+INFO:  2023-06-12 01:29:18,623:  14532:  main:  Extraction took: 0.01296544075012207 seconds.
+INFO:  2023-06-12 01:29:18,623:  14532:  staging_load:  Start Shops staging load session.
+INFO:  2023-06-12 01:29:18,640:  14532:  staging_load:  Staging load session of Shops completed successfully.
+INFO:  2023-06-12 01:29:18,640:  14532:  staging_load:  Staging load session of Shops has ended.
+INFO:  2023-06-12 01:29:18,640:  14532:  main:  Staging load of Shops CPU usage 5.6%.
+INFO:  2023-06-12 01:29:18,640:  14532:  main:  Staging load took: 0.016948461532592773 seconds.
+INFO:  2023-06-12 01:29:18,640:  14532:  extract:  Start Warehouses extract session.
+INFO:  2023-06-12 01:29:18,653:  14532:  extract:  Extraction session of Warehouses completed successfully.
+INFO:  2023-06-12 01:29:18,654:  14532:  main:  Extraction of Warehouses CPU usage 7.1%.
+INFO:  2023-06-12 01:29:18,654:  14532:  main:  Extraction took: 0.012939214706420898 seconds.
+INFO:  2023-06-12 01:29:18,654:  14532:  staging_load:  Start Warehouses staging load session.
+INFO:  2023-06-12 01:29:18,669:  14532:  staging_load:  Staging load session of Warehouses completed successfully.
+INFO:  2023-06-12 01:29:18,669:  14532:  staging_load:  Staging load session of Warehouses has ended.
+INFO:  2023-06-12 01:29:18,670:  14532:  main:  Staging load of Warehouses CPU usage 0.0%.
+INFO:  2023-06-12 01:29:18,670:  14532:  main:  Staging load took: 0.01598834991455078 seconds.
+INFO:  2023-06-12 01:29:18,670:  14532:  extract:  Start Vendors extract session.
+INFO:  2023-06-12 01:29:18,682:  14532:  extract:  Extraction session of Vendors completed successfully.
+INFO:  2023-06-12 01:29:18,682:  14532:  main:  Extraction of Vendors CPU usage 0.0%.
+INFO:  2023-06-12 01:29:18,682:  14532:  main:  Extraction took: 0.012120723724365234 seconds.
+INFO:  2023-06-12 01:29:18,683:  14532:  staging_load:  Start Vendors staging load session.
+INFO:  2023-06-12 01:29:18,697:  14532:  staging_load:  Staging load session of Vendors completed successfully.
+INFO:  2023-06-12 01:29:18,697:  14532:  staging_load:  Staging load session of Vendors has ended.
+INFO:  2023-06-12 01:29:18,698:  14532:  main:  Staging load of Vendors CPU usage 0.0%.
+INFO:  2023-06-12 01:29:18,698:  14532:  main:  Staging load took: 0.015078544616699219 seconds.
+INFO:  2023-06-12 01:29:18,698:  14532:  extract:  Start Commercial Invoices extract session.
+INFO:  2023-06-12 01:29:22,905:  14532:  extract:  Extraction session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:29:22,908:  14532:  main:  Extraction of Commercial Invoices CPU usage 7.9%.
+INFO:  2023-06-12 01:29:22,908:  14532:  main:  Extraction took: 4.209814786911011 seconds.
+INFO:  2023-06-12 01:29:22,908:  14532:  staging_load:  Start Commercial Invoices staging load session.
+INFO:  2023-06-12 01:29:22,924:  14532:  staging_load:  Staging load session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:29:22,924:  14532:  staging_load:  Staging load session of Commercial Invoices has ended.
+INFO:  2023-06-12 01:29:22,924:  14532:  main:  Staging load of Commercial Invoices CPU usage 16.7%.
+INFO:  2023-06-12 01:29:22,924:  14532:  main:  Staging load took: 0.016378164291381836 seconds.
+INFO:  2023-06-12 01:29:22,924:  14532:  extract:  Start Freight Invoices extract session.
+INFO:  2023-06-12 01:29:26,278:  14532:  extract:  Extraction session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:29:26,280:  14532:  main:  Extraction of Freight Invoices CPU usage 7.0%.
+INFO:  2023-06-12 01:29:26,280:  14532:  main:  Extraction took: 3.355940818786621 seconds.
+INFO:  2023-06-12 01:29:26,280:  14532:  staging_load:  Start Freight Invoices staging load session.
+INFO:  2023-06-12 01:29:26,297:  14532:  staging_load:  Staging load session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:29:26,297:  14532:  staging_load:  Staging load session of Freight Invoices has ended.
+INFO:  2023-06-12 01:29:26,297:  14532:  main:  Staging load of Freight Invoices CPU usage 0.0%.
+INFO:  2023-06-12 01:29:26,297:  14532:  main:  Staging load took: 0.01688838005065918 seconds.
+INFO:  2023-06-12 01:29:30,355:  14532:  warehouse_load:  Start Products warehouse load session.
+INFO:  2023-06-12 01:29:30,368:  14532:  warehouse_load:  Warehouse load session of Products completed successfully.
+INFO:  2023-06-12 01:29:30,368:  14532:  warehouse_load:  Warehouse load session of Products has ended.
+INFO:  2023-06-12 01:29:30,368:  14532:  main:  Warehouse load of Products CPU usage 0.4%.
+INFO:  2023-06-12 01:29:30,368:  14532:  main:  Warehouse load took: 0.013765096664428711 seconds.
+INFO:  2023-06-12 01:29:30,368:  14532:  warehouse_load:  Start Shops warehouse load session.
+INFO:  2023-06-12 01:29:30,381:  14532:  warehouse_load:  Warehouse load session of Shops completed successfully.
+INFO:  2023-06-12 01:29:30,381:  14532:  warehouse_load:  Warehouse load session of Shops has ended.
+INFO:  2023-06-12 01:29:30,381:  14532:  main:  Warehouse load of Shops CPU usage 0.0%.
+INFO:  2023-06-12 01:29:30,381:  14532:  main:  Warehouse load took: 0.012662172317504883 seconds.
+INFO:  2023-06-12 01:29:30,382:  14532:  warehouse_load:  Start Warehouses warehouse load session.
+INFO:  2023-06-12 01:29:30,394:  14532:  warehouse_load:  Warehouse load session of Warehouses completed successfully.
+INFO:  2023-06-12 01:29:30,394:  14532:  warehouse_load:  Warehouse load session of Warehouses has ended.
+INFO:  2023-06-12 01:29:30,394:  14532:  main:  Warehouse load of Warehouses CPU usage 0.0%.
+INFO:  2023-06-12 01:29:30,394:  14532:  main:  Warehouse load took: 0.012068748474121094 seconds.
+INFO:  2023-06-12 01:29:30,394:  14532:  warehouse_load:  Start Vendors warehouse load session.
+INFO:  2023-06-12 01:29:30,408:  14532:  warehouse_load:  Warehouse load session of Vendors completed successfully.
+INFO:  2023-06-12 01:29:30,408:  14532:  warehouse_load:  Warehouse load session of Vendors has ended.
+INFO:  2023-06-12 01:29:30,408:  14532:  main:  Warehouse load of Vendors CPU usage 8.3%.
+INFO:  2023-06-12 01:29:30,408:  14532:  main:  Warehouse load took: 0.014273405075073242 seconds.
+INFO:  2023-06-12 01:29:30,408:  14532:  warehouse_load:  Start Commercial Invoices warehouse load session.
+INFO:  2023-06-12 01:29:30,423:  14532:  warehouse_load:  Warehouse load session of Commercial Invoices completed successfully.
+INFO:  2023-06-12 01:29:30,423:  14532:  warehouse_load:  Warehouse load session of Commercial Invoices has ended.
+INFO:  2023-06-12 01:29:30,423:  14532:  main:  Warehouse load of Commercial Invoices CPU usage 9.1%.
+INFO:  2023-06-12 01:29:30,423:  14532:  main:  Warehouse load took: 0.014866828918457031 seconds.
+INFO:  2023-06-12 01:29:30,423:  14532:  warehouse_load:  Start Freight Invoices warehouse load session.
+INFO:  2023-06-12 01:29:30,437:  14532:  warehouse_load:  Warehouse load session of Freight Invoices completed successfully.
+INFO:  2023-06-12 01:29:30,437:  14532:  warehouse_load:  Warehouse load session of Freight Invoices has ended.
+INFO:  2023-06-12 01:29:30,437:  14532:  main:  Warehouse load of Freight Invoices CPU usage 10.0%.
+INFO:  2023-06-12 01:29:30,437:  14532:  main:  Warehouse load took: 0.013716936111450195 seconds.
+INFO:  2023-06-12 01:29:30,439:  14532:  main:  ETL Job took: 20.21445322036743 seconds.
+INFO:  2023-06-12 01:29:30,439:  14532:  main:  Session Summary:
+INFO:  2023-06-12 01:29:30,439:  14532:  main:  RAM memory 42.4% used.
+INFO:  2023-06-12 01:29:30,439:  14532:  main:  CPU usage 0.0%.

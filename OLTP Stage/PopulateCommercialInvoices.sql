@@ -48,7 +48,7 @@ AS
 	--  * RAND(CHECKSUM(NEWID())) picks a random section of that span which next is rounded to a full day.
 	SELECT @DocumentDate = (SELECT DATEADD(d, ROUND(DATEDIFF(d, '2019-01-01', '2022-12-31') * RAND(CHECKSUM(NEWID())), 0), 
 	--  Random hour between 9:00 and 17:00
-	--  %43200 generates time in a span of 8 hours (28800 s)
+	--  %28800 generates time in a span of 8 hours (28800 s)
 	--  + 32400 moves the generated span to 9:00.
 	--  Declared start date 2019-01-01.
 	DATEADD(s, ABS(CHECKSUM(NEWID()))%28800 + 32400, '2019-01-01')))
@@ -61,7 +61,7 @@ AS
 		VALUES(@DocumentDate, @EmployeeID, @VendorID, @WarehouseID, 'CommercialInvoice')
 	SELECT @DocumentHeaderID = (SELECT MAX(ID) FROM DocumentHeaders)
 
-	SET @line_iterator = 1
+
 	SET @line_number = FLOOR(RAND()*(5-3+1)+3)
 	PRINT 'Commercial Invoice nr. ' + CAST(@DocumentHeaderID AS VARCHAR(30)) + ' created.'
 	
